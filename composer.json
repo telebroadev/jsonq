@@ -5,32 +5,34 @@
     "homepage": "https://github.com/nahid/jsonq",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Nahid Bin Azhar",
-            "email": "nahid.dns@gmail.com"
-        }
-    ],
-  "require": {
+    "authors": [{
+        "name": "Nahid Bin Azhar",
+        "email": "nahid.dns@gmail.com"
+    }],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/telebroadev/qarray"
+    }],
+    "require": {
         "php": ">=5.6",
         "ext-json": "*",
-        "nahid/qarray": "master"
-  },
-  "require-dev": {
+        "nahid/qarray": "dev-master"
+    },
+    "require-dev": {
         "phpunit/phpunit": "^4.8 || ^5.0",
         "symfony/var-dumper": "^3.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "Nahid\\JsonQ\\": "src/"
     },
-      "files": [
-          "helpers/jsonq.php"
-      ]
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Nahid\\JsonQ\\Tests\\": "tests/"
+    "autoload": {
+        "psr-4": {
+            "Nahid\\JsonQ\\": "src/"
+        },
+        "files": [
+            "helpers/jsonq.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nahid\\JsonQ\\Tests\\": "tests/"
+        }
     }
-  }
 }
