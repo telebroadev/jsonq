@@ -1,8 +1,8 @@
 {
-    "name": "nahid/jsonq",
+    "name": "telebroadev/jsonq",
     "description": "JsonQ is a PHP based json data query library",
     "keywords": ["json", "jsonq", "query"],
-    "homepage": "https://github.com/nahid/jsonq",
+    "homepage": "https://github.com/telebroadev/jsonq",
     "type": "library",
     "license": "MIT",
     "authors": [{
@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.6",
         "ext-json": "*",
-        "nahid/qarray": "dev-master"
+        "telebroadev/qarray": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8 || ^5.0",
